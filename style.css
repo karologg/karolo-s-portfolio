@@ -38,6 +38,16 @@
 
 .foto-karolo {
     display: flex;
+    background-color: pink;
+    width: 1000px;
+    height: 1000px;
+}
+
+.perfil-lista ul {
+    list-style-type: none;
+    text-align: center;
+    justify-content: center;
+
     width: 1000px;
     height: 1000px;
 }
@@ -47,8 +57,5 @@
     box-align: center;
     height: 1000px;
     width: 2000px;
-}
-
-.perfil-lista ul {
-    list-style-type: none;
+    align-items: center;
 }
