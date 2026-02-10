@@ -1,3 +1,9 @@
+.fuzzy-bubbles-regular {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .navbar {
     box-align: center;
     display: flex;
@@ -8,6 +14,7 @@
     position: fixed;
     top: 0;
     width: 70%;
+    font-family: 
 }
 
 .nav-links {
@@ -17,6 +24,14 @@
 }
 
 .nav-links a {
-    text-decoration: underline;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
     color: black;
+}
+
+.foto-karolo {
+    width: 200px;
+    height: 200px;
 }
