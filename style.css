@@ -39,23 +39,23 @@
 .foto-karolo {
     display: flex;
     background-color: pink;
-    width: 1000px;
-    height: 1000px;
+    color: black;
+    width: 500px;
+    height: 500px;
 }
 
-.perfil-lista ul {
-    list-style-type: none;
+.perfil-lista {
     text-align: center;
     justify-content: center;
-
-    width: 1000px;
-    height: 1000px;
+    width: 500px;
+    height: 500px;
 }
 
-.profile-01 {
+.container {
     display: flex;
+    gap: 200px;
     box-align: center;
-    height: 1000px;
-    width: 2000px;
+    height: 500px;
+    width: 1000px;
     align-items: center;
 }
