@@ -8,7 +8,7 @@ body {
     margin: 0;
     background-color: var(--cor-primaria);
     font-family: "Fuzzy Bubbles", sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -28,14 +28,15 @@ body {
     display: flex;
     background-color: var(--cor-secundaria);
     color: var(--cor-letras);
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
 }
 
 .perfil-lista {
+    padding-left: 50px;
     text-align: left;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 250px;
     border-radius: 10px;
     background-color: var(--cor-secundaria);
     color: var(--cor-letras);
