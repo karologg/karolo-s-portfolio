@@ -54,6 +54,7 @@ body {
     font-style: bold;
     font-size: 30px;
     color: var(--cor-letras);
+    margin-top: 100px;
 }
 
 .content h4 {
@@ -76,9 +77,10 @@ body {
     margin: 30px;
 }
 
-.guide ul {
+.guide ul li {
     padding: 6px 6px 4px 6px;
     background-color: var(--cor-secundaria);
     color: var(--cor-letras);
-    margin: 20px 10px 0 10px;
+    margin: 20px 30px 10px 10px;
+    border-radius: 10px;
 }
