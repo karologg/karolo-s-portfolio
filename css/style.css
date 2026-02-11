@@ -48,3 +48,19 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.content h1 {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 50px;
+    color: var(--cor-letras);
+}
+
+.content h4 {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 30px;
+    color: var(--cor-secundaria);
+}
