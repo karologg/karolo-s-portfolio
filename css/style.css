@@ -17,7 +17,6 @@ body {
   font-weight: 400;
   font-style: normal;
 }
-
 .fuzzy-bubbles-bold {
     font-family: "Fuzzy Bubbles", sans-serif;
     font-weight: 700;
@@ -61,10 +60,25 @@ body {
     font-family: "Fuzzy Bubbles", sans-serif;
     font-weight: 400;
     font-style: bold;
-    font-size: 15px;
+    font-size: 20px;
     color: var(--cor-secundaria);
+}
+
+.content p {
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: var(--cor-letras);
 }
 
 .content {
     margin: 30px;
+}
+
+.guide ul {
+    padding: 6px 6px 4px 6px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-letras);
+    margin: 20px 10px 0 10px;
 }
