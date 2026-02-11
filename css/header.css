@@ -50,4 +50,5 @@ li a:hover {
     border-color: var(--cor-secundaria);
     color: var(--cor-letras);
     background-color: var(--cor-secundaria);
+    padding: 4px;
 }
