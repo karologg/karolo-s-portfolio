@@ -35,8 +35,8 @@
 }
 
 .active {
-    background-color: var(--cor-primaria);
-    color: var(--cor-letras);
+    background-color: var(--cor-letras);
+    color: var(--cor-primaria);
 }
 
 li a.active {
@@ -49,4 +49,5 @@ li a:hover {
     border-radius: 4px;
     border-color: var(--cor-secundaria);
     color: var(--cor-letras);
+    background-color: var(--cor-secundaria);
 }
