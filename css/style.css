@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #fbf9e4;
 }
 
 .fuzzy-bubbles-regular {
@@ -12,32 +13,6 @@ body {
     font-family: "Fuzzy Bubbles", sans-serif;
     font-weight: 700;
     font-style: bold;
-}
-
-.navbar {
-    box-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: gray;
-    padding: 1rem;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-}
-
-.nav-links a {
-    font-family: "Fuzzy Bubbles", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-decoration: none;
-    color: black;
 }
 
 .foto-karolo {
