@@ -1,6 +1,12 @@
+:root {
+    --cor-primaria: #FFF0DE;
+    --cor-secundaria: #96C1C5;
+    --cor-letras: #694A47;
+}
+
 body {
     margin: 0;
-    background-color: #fbf9e4;
+    background-color: var(--cor-primaria);
 }
 
 .fuzzy-bubbles-regular {
@@ -17,8 +23,8 @@ body {
 
 .foto-karolo {
     display: flex;
-    background-color: pink;
-    color: black;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-letras);
     width: 500px;
     height: 500px;
 }

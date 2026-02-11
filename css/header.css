@@ -1,8 +1,14 @@
+:root {
+    --cor-primaria: #FFF0DE;
+    --cor-secundaria: #96C1C5;
+    --cor-letras: #694A47;
+}
+
 .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #122c4f;
+    background-color: var(--cor-letras);
     display: flex;
     justify-content: center;
 }
@@ -19,16 +25,16 @@
     font-weight: 700;
     font-style: normal;
     text-decoration: none;
-    color: #fbf9e4;
+    color: var(--cor-secundaria);
 }
 
 .nav-links li:hover {
     border-width: 2px;
     border-radius: 4px;
-    border-color: #fbf9e4;
+    border-color: var(--cor-secundaria);
 }
 
 .active {
-    background-color: #fbf9e4;
-    color: #122c4f;
+    background-color: var(--cor-primaria);
+    color: var(--cor-letras);
 }
