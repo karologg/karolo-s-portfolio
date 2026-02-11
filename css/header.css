@@ -42,7 +42,6 @@
 li a.active {
     text-decoration: underline;
     text-decoration-color: var(--cor-secundaria);
-    background-color: var(--cor-letras);
 }
 
 li a:hover {
