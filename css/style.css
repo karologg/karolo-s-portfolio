@@ -1,15 +1,9 @@
 :root {
-    --cor-primaria: #FFF0DE;
-    --cor-secundaria: #96C1C5;
-    --cor-letras: #694A47;
-}
-
-body {
-    margin: 0;
-    background-color: var(--cor-primaria);
-    font-family: "Fuzzy Bubbles", sans-serif;
-    font-weight: 700;
-    font-style: normal;
+    --cor-pri: #e6e5d5;
+    --cor-sec: #c5ba93;
+    --cor-ter: #9d8361;
+    --acc-01: #994d47;
+    --acc-02: #66281f;
 }
 
 .fuzzy-bubbles-regular {
@@ -23,65 +17,43 @@ body {
     font-style: bold;
 }
 
-.foto-karolo {
-    display: flex;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-letras);
-    width: 300px;
-    height: 300px;
-}
-
-.perfil-lista {
-    padding-left: 50px;
-    text-align: left;
-    width: 300px;
-    height: 250px;
-    border-radius: 10px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-letras);
-}
-
-.container {
-    margin: 100px 0 0 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content h1 {
-    font-family: "Fuzzy Bubbles", sans-serif;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 30px;
-    color: var(--cor-letras);
-    margin: 100px 100px 50px 100px;
-}
-
-.content h4 {
-    font-family: "Fuzzy Bubbles", sans-serif;
-    font-weight: 400;
-    font-style: bold;
-    font-size: 20px;
-    color: var(--cor-secundaria);
-    margin-left: 150px;
-}
-
-.content p {
-    font-family: "Fuzzy Bubbles", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    color: var(--cor-letras);
+body {
+    background-color: var(--cor-pri);
+    font-family:"Rubik Mono One", monospace;
+    margin: 0;
 }
 
 .content {
-    margin: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8rem 20vw;
+    justify-content: center;
+    border-bottom: 1px solid var(--cor-sec);
 }
 
-.guide ul {
-    padding: 6px 6px 4px 6px;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-letras);
-    margin: 20px 30px 10px 10px;
-    border-radius: 10px;
+.content h1 {
+    font-family: "Fuzzy Bubbles", monospace;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 2.5rem;
+    color: var(--acc-02);
+    margin: 0.5rem;
+}
+
+.content h4 {
+    font-family: "Fuzzy Bubbles", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: var(--cor-ter);
+    margin: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.content p {
+    font-weight: bold;
+    color: var(--acc-01);
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin: 0.5rem;
 }
