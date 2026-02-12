@@ -78,7 +78,7 @@ body {
     margin: 30px;
 }
 
-.guide ul li {
+.guide ul {
     padding: 6px 6px 4px 6px;
     background-color: var(--cor-secundaria);
     color: var(--cor-letras);
