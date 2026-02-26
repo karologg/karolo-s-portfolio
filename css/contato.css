@@ -14,16 +14,17 @@
     background-color: var(--cor-sec);
 }
 
+.user {
+    font-size: 1vw;
+    color: var(--acc-01);
+}
+
 .icon-desc-item p {
-    font-size: 0.8vw;
+    font-size: 1vw;
     color: var(--cor-ter);
     margin: 1vw 0;
 }
 
-.user {
-    font-size: 0.8vw;
-    color: var(--acc-01);
-}
 
 .icon {
     width: 10vw;
