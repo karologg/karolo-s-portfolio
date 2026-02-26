@@ -3,6 +3,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1vw;
     margin: 1vw 0;
+    justify-content: center;
 }
 
 .icon-desc-item {
