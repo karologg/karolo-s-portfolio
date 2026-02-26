@@ -21,15 +21,13 @@ body {
     background-color: var(--cor-pri);
     font-family:"Fuzzy Bubbles", monospace;
     margin: 0;
-    padding: 0 15vw;
 }
 
 .content {
     max-width: 70vw;
-    margin: 0 auto;
-    padding: 8rem 20vw;
+    padding: 0 15vw;
     justify-content: center;
-    border-bottom: 1vw solid var(--cor-sec);
+    border-bottom: 2px solid var(--cor-sec);
 }
 
 .content h1 {
