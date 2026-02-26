@@ -21,6 +21,7 @@ body {
     background-color: var(--cor-pri);
     font-family:"Fuzzy Bubbles", monospace;
     margin: 0;
+    hyphens: auto;
 }
 
 .content {
@@ -54,4 +55,6 @@ body {
     font-size: 1.5vw;
     font-weight: 100;
     margin: 1vw 0;
+    text-align: justify;
+    hyphens: auto;
 }
