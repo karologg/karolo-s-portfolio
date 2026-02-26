@@ -34,7 +34,7 @@ body {
     font-family: "Rubik Mono One", monospace;
     font-weight: 700;
     font-style: bold;
-    font-size: 2.5rem;
+    font-size: 4vw;
     color: var(--acc-02);
     margin: 0.5rem;
 }
