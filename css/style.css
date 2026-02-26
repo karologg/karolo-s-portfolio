@@ -47,7 +47,7 @@ body {
     font-style: normal;
     font-size: 1.5vw;
     color: var(--cor-ter);
-    margin: 0.5vw 0 3vw 0;
+    margin-bottom: 3vw;
 }
 
 .content p {
@@ -55,7 +55,7 @@ body {
     color: var(--acc-01);
     font-size: 1.5vw;
     font-weight: 100;
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
     text-align: justify;
     hyphens: auto;
 
