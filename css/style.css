@@ -38,7 +38,7 @@ body {
     font-style: bold;
     font-size: 2vw;
     color: var(--acc-02);
-    margin: 4vw 0 1vw 0;
+    margin-top: 4vw;
 }
 
 .content h4 {
@@ -47,7 +47,7 @@ body {
     font-style: normal;
     font-size: 1.5vw;
     color: var(--cor-ter);
-    margin: 0.5vw 0 2vw 0;
+    margin: 0.5vw 0 4vw 0;
 }
 
 .content p {
