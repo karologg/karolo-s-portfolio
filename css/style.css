@@ -36,7 +36,7 @@ body {
     font-style: bold;
     font-size: 3vw;
     color: var(--acc-02);
-    margin: 4vw;
+    margin: 4vw 0 1vw 0;
 }
 
 .content h4 {
@@ -45,8 +45,7 @@ body {
     font-style: normal;
     font-size: 2vw;
     color: var(--cor-ter);
-    margin: 0.5w;
-    margin-bottom: 1vw;
+    margin: 1vw 0;
 }
 
 .content p {
@@ -54,5 +53,5 @@ body {
     color: var(--acc-01);
     font-size: 2vw;
     font-weight: 100;
-    margin: 0.5vw;
+    margin: 1vw 0;
 }
