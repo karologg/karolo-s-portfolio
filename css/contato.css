@@ -9,7 +9,6 @@
 .icon-desc-item {
     align-items: center;
     justify-content: center;
-    text-align: center;
     border-radius: 2vw;
     background-color: var(--cor-sec);
 }
@@ -20,6 +19,7 @@
 }
 
 .icon-desc-item p {
+    text-align: center;
     font-size: 1vw;
     color: var(--cor-ter);
     margin: 1vw 0;
@@ -27,7 +27,7 @@
 
 
 .icon {
-    width: 10vw;
+    width: 15vw;
     height: auto;
 }
 
