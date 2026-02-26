@@ -34,7 +34,7 @@ body {
     font-family: "Rubik Mono One", monospace;
     font-weight: 700;
     font-style: bold;
-    font-size: 3vw;
+    font-size: 2vw;
     color: var(--acc-02);
     margin: 4vw 0 1vw 0;
 }
@@ -43,7 +43,7 @@ body {
     font-family: "Fuzzy Bubbles", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: var(--cor-ter);
     margin: 1vw 0;
 }
@@ -51,7 +51,7 @@ body {
 .content p {
     font-weight: bold;
     color: var(--acc-01);
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-weight: 100;
     margin: 1vw 0;
 }
