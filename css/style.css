@@ -21,6 +21,7 @@ body {
     background-color: var(--cor-pri);
     font-family:"Fuzzy Bubbles", monospace;
     margin: 0;
+    padding: 0 15vw;
 }
 
 .content {
