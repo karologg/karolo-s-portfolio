@@ -2,7 +2,7 @@
     height: vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.5vw;
+    gap: 1vw;
     margin: 1vw 0;
     justify-content: center;
 }
