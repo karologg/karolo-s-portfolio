@@ -15,11 +15,13 @@
 }
 
 .user {
+    text-align: center;
     font-size: 1vw;
     color: var(--acc-01);
+    margin: 0.1vw 0 1vw 0;
 }
 
-.icon-desc-item p {
+.onde {
     text-align: center;
     font-size: 1vw;
     color: var(--cor-ter);
