@@ -22,7 +22,10 @@ body {
     font-family:"Fuzzy Bubbles", monospace;
     margin: 0;
     hyphens: auto;
-    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .content {
