@@ -31,33 +31,33 @@ body::-webkit-scrollbar {
 .content {
     max-width: 70vw;
     margin: 3vw 20vw 5vw 20vw;
-    padding: 0 1vw;
+    padding: 1vw;
     justify-content: center;
-    border-bottom: 1px solid var(--cor-sec);
+    border-bottom: 2px solid var(--cor-sec);
 }
 
 .content h1 {
     font-family: "Rubik Mono One", monospace;
     font-weight: 700;
     font-style: bold;
-    font-size: 2vw;
+    font-size: 2.5vw;
     color: var(--acc-02);
-    margin-top: 4vw;
+    margin-top: 3vw;
 }
 
 .content h4 {
     font-family: "Fuzzy Bubbles", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     color: var(--cor-ter);
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
 }
 
 .content p {
     font-weight: bold;
     color: var(--acc-01);
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-weight: 100;
     margin-bottom: 3vw;
     text-align: justify;
