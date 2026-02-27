@@ -10,7 +10,8 @@ header {
     justify-content: center;
     background-color: var(--acc-01);
     margin: 0;
-    padding: 0.5rem 2rem 0.5rem 2rem;
+    padding: 0.5rem 2rem;
+    position: sticky;
 }
 
 
