@@ -1,7 +1,7 @@
 .icon-desc-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.75vw;
+    gap: 0.5vw;
     margin: 1vw 0;
     justify-content: center;
 }
@@ -19,20 +19,11 @@
     justify-content: center;
     text-align: center;
     font-size: 1vw;
-}
-
-.user {
     color: var(--acc-01);
-    margin: 0.1vw 0 1vw 0;
-}
-
-.onde {
-    color: var(--cor-ter);
-    margin: 1vw 0 0.1vw 0;
 }
 
 .icon {
-    width: 15vw;
+    width: 13vw;
     height: auto;
 }
 
