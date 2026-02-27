@@ -1,4 +1,5 @@
 .icon-desc-grid {
+    height: vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.5vw;
