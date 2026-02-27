@@ -34,7 +34,7 @@ body::-webkit-scrollbar {
 
 .content {
     max-width: 70vw;
-    margin: 3vw 20vw 5vw 20vw;
+    margin: 3vw 15vw;
     padding: 0;
     padding-bottom: 3vw;
     justify-content: center;
