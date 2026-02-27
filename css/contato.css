@@ -1,7 +1,7 @@
 .icon-desc-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1vw;
+    gap: 0.75vw;
     margin: 1vw 0;
     justify-content: center;
 }
@@ -27,7 +27,6 @@
     color: var(--cor-ter);
     margin: 1vw 0 0.1vw 0;
 }
-
 
 .icon {
     width: 15vw;
