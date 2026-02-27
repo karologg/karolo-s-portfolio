@@ -1,5 +1,4 @@
 .icon-desc-grid {
-    height: vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1vw;
@@ -9,6 +8,7 @@
 
 .icon-desc-item {
     height: 20vw;
+    width: 20vw;
     align-items: center;
     justify-content: center;
     text-align: center;
