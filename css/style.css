@@ -68,6 +68,12 @@ body::-webkit-scrollbar {
     hyphens: auto;
 }
 
+.content li {
+    color: var(--cor-sec);
+    font-size: 1.5vw;
+    list-style: none;
+}
+
 strong {
     font-weight: 700;
     font-style: bold;
