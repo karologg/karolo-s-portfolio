@@ -14,18 +14,18 @@
     background-color: var(--cor-sec);
 }
 
-.user {
+.icon-desc-item p {
     justify-content: center;
     text-align: center;
     font-size: 0.75vw;
+}
+
+.user {
     color: var(--acc-01);
     margin: 0.1vw 0 1vw 0;
 }
 
 .onde {
-    justify-content: center;
-    text-align: center;
-    font-size: 0.75vw;
     color: var(--cor-ter);
     margin: 1vw 0 0.1vw 0;
 }
