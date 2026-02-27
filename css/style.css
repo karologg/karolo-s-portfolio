@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
     font-style: bold;
     font-size: 2.5vw;
     color: var(--acc-02);
-    margin-top: 3vw;
+    margin-top: 2vw;
 }
 
 .content h4 {
