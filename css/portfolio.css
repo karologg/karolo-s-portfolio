@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: center;
     gap: 1vw;
+    border-bottom: 0.1vw solid var(--cor-sec);
 }
 
 .port-direita {
