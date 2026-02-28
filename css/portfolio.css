@@ -1,0 +1,25 @@
+.port-esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.port-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.port-img {
+    width: 20vw;
+    height: auto;
+}
+
+.port-img:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
