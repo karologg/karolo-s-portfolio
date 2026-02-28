@@ -1,3 +1,15 @@
+:root {
+    --cor-pri: #e6e3d5;
+    --cor-sec: #d1cbb5;
+    --cor-ter: #9d8361;
+    --acc-01: #994d47;
+    --acc-02: #66281f;
+
+    --fs-h1: clamp(2rem, 2.5vw, 3rem);
+    --fs-h4: clamp(1rem, 1.5vw, 2rem);
+    --fs-p: clamp(0.875rem, 1.5vw, 1.25rem);
+}
+
 .port-esquerda {
     display: flex;
     flex-direction: column;
@@ -12,6 +24,7 @@
     align-items: center;
     justify-content: center;
     gap: 1vw;
+    border-bottom: 0.1vw solid var(--cor-sec);
 }
 
 .port-p {
