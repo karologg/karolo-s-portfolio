@@ -11,7 +11,10 @@
 }
 
 .port-esquerda {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-start: 1;
+    grid-column-end: 2;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -20,7 +23,10 @@
 }
 
 .port-direita {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
     flex-direction: column;
     align-items: center;
     justify-content: center;
