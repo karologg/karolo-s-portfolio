@@ -9,7 +9,7 @@
 .icon-desc-item {
     height: 20vw;
     width: 20vw;
-    align-items: center;
+    align-content: center;
     justify-content: center;
     text-align: center;
     border-radius: 2vw;
