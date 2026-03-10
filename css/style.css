@@ -6,8 +6,8 @@
     --acc-01: #8b7a6b;
     --acc-02: #3a2817;
     --acc-03: #d9d0b9;
-    --fs-title: clamp(4rem, 5vw, 6rem);
-    --fs-text: clamp(2rem, 3vw, 2.5rem);
+    --fs-title: clamp(4rem, 6vw, 8rem);
+    --fs-text: clamp(2rem, 3vw, 4rem);
     --size-img: clamp(10rem, 19vw, 15rem);
     --size-img02: clamp(28rem, 37.25vw, 43rem);
 }
