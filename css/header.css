@@ -1,17 +1,23 @@
 :root {
-    --cor-pri: #e6e5d5;
-    --cor-sec: #d1cbb5;
-    --cor-ter: #9d8361;
-    --acc-01: #994d47;
-    --acc-02: #66281f;
+    --cor-pri: #e6ebef;
+    --cor-extra: #b4cfe6;
+    --cor-sec: #7fa7c7;
+    --cor-ter: #3f5f78;
+    --acc-01: #8b7a6b;
+    --acc-02: #3a2817;
+    --acc-03: #d9d0b9;
+    --fs-title: clamp(1.8rem, 4vw, 1.6rem);
+    --fs-text: clamp(1rem, 1.5vw, 1.2rem);
+    --size-img: clamp(10rem, 19vw, 15rem);
+    --size-img02: clamp(28rem, 37.25vw, 43rem);
 }
-
 header {
     justify-content: center;
-    background-color: var(--acc-01);
+    background-color: var(--cor-ter);
     margin: 0;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
     position: sticky;
+    top: 0;
 }
 
 
@@ -19,7 +25,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1vw;
     list-style: none;
     text-decoration: none;
     color: var(--cor-pri);
@@ -29,23 +35,25 @@ header {
     font-family: "Fuzzy Bubbles", monospace;
     font-weight: 700;
     font-style: normal;
-    padding: 5px;
+    font-size: 1rem;
+    padding: 0.5vw 0.75vw 0.5vw 0.75vw;
     text-decoration: none;
     color: var(--cor-pri);
 }
 
 .nav-links li a:hover {
     background-color: var(--cor-sec);
-    color: var(--acc-01);
-    border-radius: 0.5rem;
+    color: var(--cor-ter);
+    border-radius: 0.5vw;
     text-decoration: underline;
-    text-decoration-color: var(--acc-01);
+    text-decoration-color: var(--cor-ter);
+    transition: transform 0.5s ease;
 }
 
 .nav-links li a.active {
     background-color: var(--cor-pri);
-    color: var(--acc-01);
-    border-radius: 0.5rem;
+    color: var(--cor-ter);
+    border-radius: 0.5vw;
     text-decoration: underline;
-    text-decoration-color: var(--acc-01);
+    text-decoration-color: var(--cor-ter);
 }

@@ -1,34 +1,77 @@
-.icon-desc-grid {
+:root {
+    --cor-pri: #e6ebef;
+    --cor-extra: #b4cfe6;
+    --cor-sec: #7fa7c7;
+    --cor-ter: #3f5f78;
+    --acc-01: #8b7a6b;
+    --acc-02: #3a2817;
+    --acc-03: #d9d0b9;
+    --fs-title: clamp(1.8rem, 4vw, 1.6rem);
+    --fs-text: clamp(1rem, 1.5vw, 1.2rem);
+    --size-img: clamp(10rem, 19vw, 15rem);
+    --size-img02: clamp(28rem, 37.25vw, 43rem);
+}
+
+.contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1vw;
-    margin: 1vw 0;
-    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2vw;
+    margin-top: 3vw;
+    justify-content: space-between;
 }
 
-.icon-desc-item {
-    height: 20vw;
-    width: 20vw;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 2vw;
-    background-color: var(--cor-sec);
-}
-
-.icon-desc-item p {
-    justify-content: center;
-    text-align: center;
-    font-size: 1vw;
-    color: var(--acc-01);
-}
-
-.icon {
-    width: 13vw;
+.grid-icon {
+    width: var(--size-img);
     height: auto;
 }
 
-.icon-desc-grid img:hover {
-    transform: scale(1.1);
+.username p {
+    font-weight: 700;
+    font-style: bold;
+    color: var(--acc-02);
+    font-size: var(--fs-text);
+    font-weight: 100;
+    text-align: left;
+    hyphens: auto;
+}
+
+.icon-desc-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-extra);
+    padding: 1vw 2.5vw;
+    border-radius: 2vw;
+}
+
+.icon-desc-item p {
+    font-weight: bold;
+    color: var(--cor-ter);
+    font-size: var(--fs-text);
+    text-align: left;
+    hyphens: auto;
+}
+
+.icon-desc-item a:hover {
+    transform: scale(1.05);
     transition: transform 0.5s ease;
 }
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+
+.list li {
+    font-weight: bold;
+    color: var(--cor-ter);
+    font-size: var(--fs-text);
+    font-weight: 100;
+    margin: 0;
+    text-align: justify;
+    hyphens: auto;
+    margin-bottom: 0.5rem;
+} 

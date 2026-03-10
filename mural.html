@@ -6,6 +6,7 @@
     <title>karolo's portfolio!</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/mural.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
@@ -18,8 +19,8 @@
                 <li><a href="index.html">home</a></li>
                 <li><a href="profile.html">profile</a></li>
                 <li><a href="portfolio.html">portfolio</a></li>
-                <li><a href="contato.html">contact</a></li>
-                <li><a class="active" href="mural.html">board</a></li>
+                <li><a href="contato.html">contato</a></li>
+                <li><a class="active" href="mural.html">mural</a></li>
             </ul>
         </nav>
     </header>
@@ -30,6 +31,28 @@
         <h4>
             deixe uma mensagem para mim ou outros visitantes!
         </h4>
+
+        <p></p>
     </div>
+
+    <div class="content">
+        <div class="mensagens">
+            <form id="msg-form" class="mural-form">
+                <label class="msg" for="msg">mensagem</label>
+                <textarea id="msg" name="msg" rows="3" placeholder="digite aqui sua mensagem" required></textarea>
+                <label class="sign" for="sign">assinatura</label>
+                <input id="sign" name="sign" type="text" placeholder="digite aqui seu nome ou assinatura" required>
+                <button type="submit">adicionar</button>
+            </form>
+            <div class="mural-item" id="msg-list">
+                <div class="mural-item-icon">
+                    <img src="img/post-it.webp" alt="post-it">
+                    <p class="mural-temp">este é um exemplo de mensagem, deixe a sua aqui! — karolo</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
 </body>
 </html>

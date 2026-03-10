@@ -1,0 +1,122 @@
+:root {
+    --cor-pri: #e6ebef;
+    --cor-extra: #b4cfe6;
+    --cor-sec: #7fa7c7;
+    --cor-ter: #3f5f78;
+    --acc-01: #8b7a6b;
+    --acc-02: #3a2817;
+    --acc-03: #d9d0b9;
+    --fs-title: clamp(1.8rem, 4vw, 1.6rem);
+    --fs-text: clamp(1rem, 1.5vw, 1.2rem);
+    --size-img: clamp(10rem, 19vw, 15rem);
+    --size-img02: clamp(28rem, 37.25vw, 43rem);
+}
+.mensagens {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2rem;
+    margin-top: 1vw;
+    justify-items: center;
+}
+
+.mural-item {
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mural-form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0 1rem;
+    align-items: center;
+    width: min(700px, 95%);
+    padding: 2rem 3rem 4.5rem 3rem;
+    grid-column: 1 / -1;
+    justify-self: center;
+    background-color: var(--cor-extra);
+    border-radius: 2vw;
+}
+
+.mural-form label {
+    margin: 1rem 0;
+    grid-column: 1 / -1;
+    color: var(--cor-ter);
+    font-size: 2vw;
+}
+
+.mural-form textarea,
+.mural-form input[type="text"] {
+    width: 100%;
+    height: 75%;
+    padding: 0.5rem;
+    border-radius: 0.75vw;
+    border: none;
+    font-family: inherit;
+    margin-bottom: 0.75rem;
+}
+
+.mural-form button {
+    padding: 1vw;
+    background: var(--cor-ter);
+    color: white;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+.mural-item-icon .mural-temp {
+    background: transparent;
+    padding: 0.25rem;
+    border-radius: 4px;
+}
+
+.mural-item p {
+    font-weight: bold;
+    color: var(--acc-01);
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-align: center;
+    hyphens: auto;
+}
+
+.mural-item-icon {
+    width: clamp(200px, 22vw, 320px);
+    height: auto;
+    position: relative;
+}
+
+.mural-item-icon img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.mural-item-icon .mural-temp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 72%;
+    color: var(--acc-02);
+    font-weight: 700;
+    font-size: clamp(0.9rem, 1.2vw, 1.05rem);
+    line-height: 1.1;
+    text-align: center;
+    pointer-events: none;
+    white-space: normal;
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+button {
+    margin-left: 1vw;
+    font-family: "Fuzzy Bubbles", monospace;
+    font-size: 1vw;
+    border-radius: 0.1vw;
+    color: var(--cor-pri);
+}
