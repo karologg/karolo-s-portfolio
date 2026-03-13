@@ -6,11 +6,12 @@
     --acc-01: #8b7a6b;
     --acc-02: #3a2817;
     --acc-03: #d9d0b9;
-    --fs-title: clamp(1.8rem, 4vw, 1.6rem);
+    --fs-title: clamp(1.8rem, 4vw, 2rem);
     --fs-text: clamp(1rem, 1.5vw, 1.2rem);
     --size-img: clamp(10rem, 19vw, 15rem);
     --size-img02: clamp(28rem, 37.25vw, 43rem);
 }
+
 header {
     justify-content: center;
     background-color: var(--cor-ter);

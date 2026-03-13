@@ -6,21 +6,10 @@
     --acc-01: #8b7a6b;
     --acc-02: #3a2817;
     --acc-03: #d9d0b9;
-    --fs-title: clamp(1.8rem, 4vw, 1.6rem);
+    --fs-title: clamp(1.8rem, 4vw, 2rem);
     --fs-text: clamp(1rem, 1.5vw, 1.2rem);
     --size-img: clamp(10rem, 19vw, 15rem);
     --size-img02: clamp(28rem, 37.25vw, 43rem);
-}
-
-.skills-01 strong {
-    font-family: monospace;
-    font-weight: bold;
-    color: var(--cor-ter);
-    font-size: var(--fs-text);
-    font-weight: 600;
-    padding: 0.5vw 0;
-    text-align: justify;
-    hyphens: auto;
 }
 
 strong {
@@ -34,12 +23,20 @@ strong {
     hyphens: auto;
 }
 
-.skill-type {
-    margin-bottom: 2vw;
-}
-
 section {
     justify-content: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    gap: 1.5vw;
+    margin: 3.5vw auto 0 auto;
+    padding: 1.5vw;
+    background: linear-gradient(white,white, whitesmoke);
+    border-radius: 2vw;
+    width: fit-content;
 }
 
 .karolo-photo {
@@ -66,20 +63,12 @@ section {
     margin-bottom: 0.5rem;
 }
 
-.profile {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    gap: 1.5vw;
-    margin: 3.5vw auto 0 auto;
-    padding: 1.5vw;
-    background-color: white;
-    border-radius: 2vw;
-    max-width: 42vw;
-}
-
 .set-marrom{ background-color: var(--acc-03); }
 .set-azul { background-color: var(--cor-extra); }
+
+.skill-type {
+    margin-bottom: 2vw;
+}
 
 .skills-01 {
     display: flex;
@@ -103,8 +92,6 @@ section {
 }
 
 .skill-item {
-    font-family: monospace;
-    font-weight: normal;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -128,19 +115,18 @@ section {
     height: 100%;
     background-color: var(--cor-ter); 
     animation: growBar 2s ease-out forwards; }
-.java { width: 70%; }
+.java { width: 90%; }
+.api { width: 25%; }
+.spring { width: 25%; }
+.python { width: 50%; }
+.csharp { width: 75%; }
 .html { width: 90%; }
 .css { width: 90%; }
-.java { width: 80%; }
-.spring { width: 25%; }
 .js { width: 25%; }
-.csharp { width: 75%; }
-.python { width: 50%; }
+.next { width: 25%; }
 .portuguese { width: 100%; }
 .english { width: 100%; }
 .japanese { width: 75%; }
-.api { width: 25%; }
-.next { width: 25%; }
 
 .skill-list-flex {
     display: flex;
@@ -157,4 +143,49 @@ section {
 
 .soft-skills {
     grid-column: span 2;
+}
+
+.education-grid02 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 1vw;
+    margin-top: 3.5vw;
+}
+
+.long-course {
+    grid-column: span 1;
+    text-align: center;
+    align-content: space-between;
+    padding: 2vw;
+    border-radius: 0.5vw;
+    hyphens: auto;
+}
+
+.education-grid03 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+
+.short-course02 {
+    grid-column: span 2;
+    text-align: center;
+    align-content: space-between;
+    padding: 2vw;
+    border-radius: 0.5vw;
+    hyphens: auto;
+}
+
+.short-course01 {
+    grid-column: span 1;
+    text-align: center;
+    align-content: space-between;
+    padding: 2vw;
+    border-radius: 0.5vw;
+    hyphens: auto;
 }
