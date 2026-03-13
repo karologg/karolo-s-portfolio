@@ -22,16 +22,18 @@
     align-items: center;
 }
 
-.message-input {
+.message-input label textarea{
     display: flex;
     flex-direction: column;
     grid-column: span 2;
+    gap: 1vw;
 }
 
-.sign-input {
+.sign-input label input {
     display: flex;
     flex-direction: column;
     grid-column: span 2;
+    gap: 1vw;
 }
 
 .mural-item {
@@ -76,7 +78,7 @@
 .mural-form button {
     padding: 0.5vw;
     background: var(--cor-ter);
-    color: white;
+    color: var(--cor-pri);
     border: none;
     border-radius: 0.5vw;
     cursor: pointer;
@@ -91,7 +93,7 @@
 .mural-item p {
     font-weight: bold;
     color: var(--acc-01);
-    font-size: 1.2rem;
+    font-size: 1vw;;
     font-weight: 100;
     text-align: center;
     hyphens: auto;
