@@ -1,0 +1,95 @@
+:root {
+    --cor-pri: #e6ebef;
+    --cor-extra: #b4cfe6;
+    --cor-sec: #7fa7c7;
+    --cor-ter: #3f5f78;
+    --acc-01: #8b7a6b;
+    --acc-02: #3a2817;
+    --acc-03: #d9d0b9;
+    --fs-title: clamp(1.8rem, 3vw + 0.5rem, 2rem);
+    --fs-text: clamp(1rem, 1.5vw + 0.5rem, 1.2rem);
+    --size-img: clamp(10rem, 19vw + 0.5rem, 15rem);
+    --size-img02: clamp(15rem, 29vw + 0.5rem, 22.5rem);
+}
+
+.mural-container {
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.mural-form {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: var(--cor-extra);
+    border-radius: 1.5rem;
+    width: 60vw;
+    margin: auto;
+}
+
+.message-input,
+.sign-input {
+    display: flex;
+    flex-direction: column;
+    font-family: monospace;
+    padding: 0.25rem;
+    font-size: var(--fs-text);
+    border-radius: 0.6rem;
+}
+
+.message-input {
+    grid-column: 1 / 2;
+}
+
+.sign-input {
+    grid-column: 2 / 3;
+}
+
+label {
+    color: var(--cor-ter);
+    font-size: var(--fs-text);
+    margin-bottom: 0.35rem;
+    font-weight: 600;
+}
+
+.button-input {
+    grid-column: 1 / -1;
+    align-self: center;
+    font-family: monospace;
+    padding: 0.6rem 1.2rem;
+    font-size: var(--fs-text);
+    background-color: var(--cor-sec);
+    color: var(--cor-ter);
+    border-radius: 1rem;
+    border: none;
+    width: fit-content;
+    cursor: pointer;
+    margin-top: 0.2rem;
+}
+
+.mural-form textarea,
+.mural-form input {
+    font-family: monospace;
+    width: 80%;
+    min-height: 4rem;
+    padding: 0.5rem;
+    font-size: clamp(0.5rem, 0.5vw + 0.5rem, 1rem);
+    align-content: top;
+    border: 1px solid #acc2d7;
+    background-color: var(--cor-pri);
+    border-radius: 0.8rem;
+    resize: vertical;
+    cursor: text;
+}
+
+@media (max-width: 600px) {
+    .mural-form {
+        grid-template-columns: 1fr;
+    }
+    .sign-input,
+    .message-input {
+        grid-column: 1 / -1;
+    }
+}
