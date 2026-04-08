@@ -63,6 +63,7 @@ img {
     background-color: var(--cor-extra);
     transition: transform 0.25s ease-in-out;
     image-rendering: pixelated;
+    border-width: 2px solid var(--acc-02);
 }
 
 img:hover {
