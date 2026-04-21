@@ -1,15 +1,17 @@
 :root {
     --cor-pri: #efece6;
-    --cor-extra: #b4cfe6;
-    --cor-sec: #7fa7c7;
+    --cor-extra: #c0d7eb;
+    --cor-sec: #7faec7;
     --cor-ter: #3f5f78;
     --acc-01: #8b7a6b;
     --acc-02: #412a15;
     --acc-03: #d9d0b9;
     --fs-title: clamp(2rem, 3vw + 0.5rem, 2.5rem);
-    --fs-text: clamp(0.8rem, 1vw + 0.5rem, 1.2rem);
-    --size-img: clamp(10rem, 19vw + 0.5rem, 15rem);
+    --fs-text: clamp(1rem, 1.25vw + 0.5rem, 1.5rem);
+    --fs-mini: clamp(0.75rem, 0.75vw + 0.5rem, 1.2rem);
+    --size-img: clamp(20vw, 18vw + 0.5rem, 15rem);
     --size-img02: clamp(12rem, 23vw + 0.5rem, 18rem);
     --size-img03: clamp(15rem, 29vw + 0.5rem, 22.5rem);
+    --size-icons: clamp(3rem, 4vw + 0.5rem, 4.5rem);
     --size-bar: clamp(0.33rem, 0.3vw + 0.1rem, 0.4rem);
 } 

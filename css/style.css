@@ -32,24 +32,21 @@ body {
     overflow-y: scroll; /* Mantém a funcionalidade */
 }
 
-
 .content {
-    width: clamp(600px, 65vw + 1rem, 80vw);
+    width: clamp(200px, 65vw + 1rem, 70vw);
     margin: 0 auto;
-    padding: 4vw 1vw;
-    border-bottom: 0.1vw solid var(--acc-01);
+    padding: 2vw 1vw;
+    border-bottom: 2px solid var(--acc-03);
 }
-
 .content h1 {
     font-family: "Darumadrop One", monospace;
     font-weight: 700;
     font-style: bold;
     font-size: var(--fs-title);
     color: var(--acc-02);
-    margin: 0;
+    margin: 2vw 0 0 0;
     line-height: 1.2;
 }
-
 .content h4 {
     font-family: "Pangolin", monospace;
     font-weight: 400;
@@ -61,34 +58,53 @@ body {
     margin-top: 0.25rem;
     line-height: 1.5;
 }
-
 .content p {
     font-family: "Pangolin", monospace;
+    letter-spacing: 0.1rem;
+    line-height: 1.75;
     font-weight: normal;
     color: var(--cor-ter);
     font-size: var(--fs-text);
     font-weight: 100;
-    margin: 0;
     text-align: justify;
     hyphens: auto;
     line-height: 1.5;
 }
-
 .content strong {
     font-family: "Pangolin", monospace;
+    letter-spacing: 0.1rem;
+    line-height: 1.75;
     font-weight: bold;
     color: var(--cor-ter);
     font-size: var(--fs-text);
     font-weight: 600;
 }
-
 .content a {
     color: inherit;
     text-decoration: underline;
     transition: 0.25s ease-in-out;
 }
-
 .content a:hover {
     color: var(--cor-sec);
     transition: 0.25s ease-in-out;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+
+.list li {
+    font-weight: bold;
+    color: var(--cor-ter);
+    font-size: var(--fs-text);
+    letter-spacing: 0.1rem;
+    line-height: 1.75;
+    font-weight: 100;
+    margin: 0;
+    text-align: justify;
+    hyphens: auto;
+    margin-bottom: 0.5rem;
 }
