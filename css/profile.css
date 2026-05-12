@@ -66,7 +66,7 @@
 }
 
 .skill-list {
-    margin-top: 1vw;
+    margin-top: 0.5vw;
     text-align: left;
 }
 
@@ -80,8 +80,8 @@
     align-items: center;
     justify-content: space-between;
     height: auto;
-    padding: 0.25vw;
 }
+
 .skill-item p {
     font-size: var(--fs-mini);
 }
@@ -90,7 +90,6 @@
     display: flex;
     align-items: center;
     height: auto;
-    padding: 0.25vw;
 }
 .skill-item-s p {
     font-size: var(--fs-mini);

@@ -28,3 +28,17 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 });
 
+function copyEmail() {
+	const email = document.getElementById('my-email').textContent;
+	navigator.clipboard.writeText(email);
+	showToast();
+}
+
+function showToast() {
+	var toast = document.getElementsByClassName("notification");
+	toast.classList.add("show");
+
+	setTimeout(function() {
+		toast.classList.remove("show");
+	}, 5000)
+}
