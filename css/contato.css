@@ -48,7 +48,7 @@ section {
 }
 
 .grid-icon {
-    width: var(--size-icons);
+    width: var(--size-img);
     height: auto;
 }
 
@@ -60,6 +60,7 @@ section {
     font-weight: 100;
     text-align: left;
     hyphens: auto;
+    margin-bottom: 0;
 }
 
 .icon-desc-item {
@@ -70,7 +71,7 @@ section {
     justify-content: center;
     text-align: center;
     background-color: var(--cor-extra);
-    padding: 2.5vw 1.25vw 0 1.25vw;
+    padding: 0.25vw 1vw;
     border-radius: 2vw;
     min-width: var(--size-icons);
     aspect-ratio: 1/1;

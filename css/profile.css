@@ -16,6 +16,7 @@
 
 .profile {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
     gap: 2rem;
@@ -23,7 +24,7 @@
     padding: var(--fs-text);
     background-color: var(--acc-03);
     border-radius: 2vw;
-    width: fit-content;
+    width: max-width;
 }
 
 .karolo-photo {
@@ -31,8 +32,6 @@
     aspect-ratio: 1/1;
     border-radius: 1.5vw;
 }
-
-
 
 .set-marrom{ background-color: var(--acc-03); }
 .set-azul { background-color: var(--cor-extra); }
@@ -200,5 +199,11 @@
     align-content: space-between;
     padding: 2vw;
     border-radius: 0.5vw;
+    hyphens: auto;
+}
+
+.ul li {
+    font-size: var(--fs-mini);
+    text-align: justify;
     hyphens: auto;
 }

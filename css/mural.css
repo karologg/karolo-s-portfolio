@@ -7,11 +7,11 @@
 .mural-form {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 1rem;
-    padding: 1.5rem;
+    gap: var(--fs-text);
+    padding: 1.25rem;
     background-color: var(--cor-extra);
     border-radius: 1.5rem;
-    width: 60vw;
+    width: max-width;
     margin: auto;
 }
 
@@ -41,7 +41,7 @@ label {
 }
 
 .button-input {
-    grid-column: 1 / -1;
+    grid-column: 1 / 1;
     align-self: center;
     font-family: monospace;
     padding: 0.6rem 1.2rem;
