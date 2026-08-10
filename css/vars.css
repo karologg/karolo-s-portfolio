@@ -1,11 +1,11 @@
 :root {
     --cor-pri: #efece6;
-    --cor-extra: #c0d7eb;
+    --cor-extra: #bed0df;
     --cor-sec: #7faec7;
     --cor-ter: #3f5f78;
     --acc-01: #8b7a6b;
     --acc-02: #412a15;
-    --acc-03: #d9d0b9;
+    --acc-03: #e0dbcd;
     --fs-title: clamp(2rem, 3vw + 0.5rem, 2.5rem);
     --fs-text: clamp(0.5rem, 1.25vw + 0.5rem, 1.5rem);
     --fs-mini: clamp(0.25rem, 0.75vw + 0.5rem, 1.2rem);
