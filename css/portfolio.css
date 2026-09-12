@@ -1,8 +1,4 @@
-body {
-    background-color: var(--cor-pri);
-    font-family:"Rubik Mono One", monospace;
-    margin: 0;
-}
+
 .project-dir {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

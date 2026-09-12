@@ -70,7 +70,7 @@ section {
     align-content: center;
     justify-content: center;
     text-align: center;
-    background-color: var(--cor-extra);
+    background-color: none;
     padding: 0.25vw 1vw;
     border-radius: 2vw;
     min-width: var(--size-icons);
@@ -83,6 +83,18 @@ section {
 }
 
 .icon-desc-item img:hover {
-    transform: scale(1.1);
-    transition: 0.5s ease-in-out;
+    animation: popOut 0.4s steps(1, end) forwards;
+    transform: scale(1.2);
+}
+
+@keyframes popOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1) rotate(-5deg);
+    }
+    100% {
+        transform: scale(1.2) rotate(10deg);
+    }
 }

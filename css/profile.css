@@ -28,7 +28,7 @@
 }
 
 .karolo-photo {
-    width: var(--size-img);
+    width: var(--size-img02);
     aspect-ratio: 1/1;
     border-radius: 1.5vw;
 }

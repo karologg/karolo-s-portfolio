@@ -1,35 +1,17 @@
-html {
-    scrollbar-gutter: stable;
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+    display: none;
 }
 
 body {
+    background-image: url(../img/grid-tile.png);
     background-color: var(--cor-pri);
+    background-repeat: repeat;
+    background-size: 600px 600px;
     font-family:"Pangolin", monospace;
     margin: 0;
     height: 300px;
     overflow-y: scroll;
-}
-
-::selection {
-  background-color: var(--acc-01); /* Cor de fundo da seleção */
-  color: var(--acc-02);                /* Cor do texto selecionado */
-}
-
-/* Para Firefox */
-::-moz-selection {
-  background-color: var(--acc-01);
-  color: var(--acc-02);
-}
-
-:-webkit-scrollbar {
-    display: none;
-}
-
-/* IE, Edge e Firefox */
-.elemento {
-    -ms-overflow-style: none;  /* IE e Edge */
-    scrollbar-width: none;  /* Firefox */
-    overflow-y: scroll; /* Mantém a funcionalidade */
 }
 
 .content {
