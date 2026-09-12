@@ -18,7 +18,6 @@ body {
     width: clamp(200px, 65vw + 1rem, 900px);
     margin: 0 auto;
     padding: 2vw 1vw;
-    border-bottom: 2px solid var(--acc-03);
 }
 .content h1 {
     font-family: "Darumadrop One", monospace;

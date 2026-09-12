@@ -108,16 +108,16 @@
     }
 }
 
-.skill-set:hover .progress {
-    animation-delay: 1s;
-    animation: growBar 2s ease-in-out forwards;
-}
 
 .progress {
     height: 100%;
     background-color: var(--cor-ter); 
-    animation: growBar 1.5s ease-out forwards;
 }
+
+.animate {
+    animation: forwards growBar 2s;
+}
+
 .java { width: 90%; }
 .api { width: 25%; }
 .spring { width: 25%; }
