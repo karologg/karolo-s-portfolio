@@ -69,13 +69,3 @@ label {
     resize: vertical;
     cursor: text;
 }
-
-@media (max-width: 600px) {
-    .mural-form {
-        grid-template-columns: 1fr;
-    }
-    .sign-input,
-    .message-input {
-        grid-column: 1 / -1;
-    }
-}

@@ -23,23 +23,16 @@
     transform: translateY(0);
 }
 
-.copy {
+.e-mail {
     background-color: var(--cor-extra);
-    color: var(--cor-ter);
-    justify-content: center;
-    align-content: center;
-    align-items: center;
     border-radius: 1vw;
-    border-color: var(--cor-extra);
-}
-
-.emaio {
-    display: flex;
-    flex-direction: in-line;
-    justify-content: left;
-    align-items: center;
-    align-content: center;
-    gap: 2vw;
+    width: fit-content;
+    padding: 1vw 1.5vw;
+    font-family: "Pangolin", monospace;
+    font-size: var(--fs-mini);
+    border: none;
+    cursor: pointer;
+    color: var(--cor-ter);
 }
 
 section {
@@ -98,3 +91,5 @@ section {
         transform: scale(1.2) rotate(10deg);
     }
 }
+
+
